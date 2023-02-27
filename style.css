@@ -1,0 +1,58 @@
+/* html, body { height: 100% } */
+/* html {scroll-behavior: smooth;} */
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images3.alphacoders.com/812/812062.png),
+    linear-gradient(#191c20, #24292e 1%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+/* Navigation style */
+.navbar .container-fluid {
+    background-color: rgb(187, 97, 172);
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    font-weight: bold;
+
+}
+.navbar{
+    margin-bottom: 10px;
+}
+
+
+
+/* Main container style */
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 140px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+   
+}
+
+/* card style */
+.card{
+    /* 
+     */
+     /* width: 30%; */
+     margin: 20px; 
+     padding: 10px;
+     align-items: center;
+    
+}  
+.card-img{
+    width: 100%;
+}
+
+
